@@ -21,3 +21,28 @@
 ```
 
 ## Microbit program
+```nomnoml
+[<frame> microbit |
+
+[micro bit |
+- s0_val : int
+- s1_val : int
+- s2_val : int
+
+|
++ get_data() : boolean
++ send_data() : boolean
++ modulate() : void
++ calibrate() : void
+- get_sensor_val(sensor int) : void
+- set_sensor_val(sensor int, value int) : void
+
+]
+
+[get_data() : boolean |
+|
++ read_sensor(sensor int) : boolean
+]
+
+]
+```

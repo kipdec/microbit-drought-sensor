@@ -24,7 +24,7 @@
 ```nomnoml
 [<frame> microbit |
 
-[micro bit |
+[drought_sensor |
 - s0_val : int
 - s1_val : int
 - s2_val : int
